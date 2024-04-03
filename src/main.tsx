@@ -1,4 +1,3 @@
-import React from "react";
 import ReactDOM from "react-dom/client";
 import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
 import "./main.css";
@@ -13,7 +12,7 @@ const router = createBrowserRouter([
 			<>
 				<Header />
 				<Outlet />
-                <Footer />
+				<Footer />
 			</>
 		),
 		children: [
